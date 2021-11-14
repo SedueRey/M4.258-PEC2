@@ -1,26 +1,64 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
-    <title>UOC Boilerplate</title>
+    <title>Much ado about nothing</title>
   </head>
   <body>
-    <div class="uoc-container">
-      <picture>
-        <source srcset="./assets/images/logo.png?as=webp&width=350" type="image/webp" />
-        <img src="./assets/images/logo.png?width=350" alt="test image" />
-      </picture>
-      <h1 class="uoc-title">Hello, UOC!</h1>
-      <p>
-        This is a starter template for the Advanced HTML and CSS Tools courses
-        from the Master's Program in Multimedia Applications and the Master's
-        Program in Web App and Website Development at the Universitat Oberta de
-        Catalunya.
-      </p>
-    </div>
+    <include src="src/assets/html/header.html"></include>
+    <main class="home">
+      <section class="home__hero">
+        <img class="home__logo" src="/src/assets/images/theater-masks-logo.png" alt="Much ado about nothing">
+        <header class="home__header">
+          <h1>Much ado about nothing</h1>
+          <h2>Teatro Romea. December 2021</h2>
+        </header>
+        <ul class="home__list">
+          <li class="featured home__listItem">
+            <h3 class="featured__title">Finally in Murcia</h3>
+            <p class="featured__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit.</p>
+            <h5 class="featured__subtitle">January 26–27, 8pm</h5>
+          </li>
+          <li class="featured home__listItem">
+            <h3 class="featured__title">Best season ever</h3>
+            <p class="featured__desc">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit</p>
+            <h5 class="featured__subtitle">December 16, 6pm</h5>
+          </li>
+          <li class="featured home__listItem">
+            <h3 class="featured__title">Best season ever</h3>
+            <p class="featured__desc">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit</p>
+            <h5 class="featured__subtitle">December 16, 8pm</h5>
+          </li>
+          <li class="featured home__listItem">
+            <h3 class="featured__title">Best season ever</h3>
+            <p class="featured__desc">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit</p>
+            <h5 class="featured__subtitle">December 16, 10pm</h5>
+          </li>
+          <li class="featured home__listItem">
+            <h3 class="featured__title">Best season ever</h3>
+            <p class="featured__desc">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit</p>
+            <h5 class="featured__subtitle">December 17, 6pm</h5>
+          </li>
+          <li class="featured home__listItem">
+            <h3 class="featured__title">Best season ever</h3>
+            <p class="featured__desc">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit</p>
+            <h5 class="featured__subtitle">December 17, 8pm</h5>
+          </li>
+          <li class="featured home__listItem">
+            <h3 class="featured__title">Best season ever</h3>
+            <p class="featured__desc">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit</p>
+            <h5 class="featured__subtitle">December 17, 10pm</h5>
+          </li>
+        </ul>
+        <div class="home__calltoaction">
+          <a href="tickets.html" class="btn btn-dark btn-lg">Buy Tickets</a>
+        </div>
+      </section>
+    </main>
+    <include src="src/assets/html/footer.html"></include>
     <script type="module" src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
   </body>
 </html>

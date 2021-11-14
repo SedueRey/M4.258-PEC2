@@ -1,0 +1,11 @@
+.navbar .navbar-brand {
+  background-image: url('/src/assets/images/theater-masks-logo.png');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: left;
+  color: rgba(0,0,0,0);
+  max-width: 16rem;
+  &:hover {
+    color: rgba(0,0,0,0);
+  }
+}

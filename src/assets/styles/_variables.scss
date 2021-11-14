@@ -1,12 +1,44 @@
 @use "sass:color";
 
-$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-  "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-  "Segoe UI Symbol";
-$font-family-serif: "Georgia", "Times New Roman", serif;
+$theme-colors: (
+ "primary": #d3b0d4,
+ "dark": #213233,
+);
 
-$uoc-corporate: #000078;
-$uoc-masterbrand: #73edff;
-$uoc-bg: color.scale($uoc-masterbrand, $lightness: 70%);
+$body-bg: #f4f4f4;
+$body-color: #110911;
+$font-family-sans-serif: Lato, sans-serif;
+$headings-font-weight: 300;
+$headings-line-height: 1.15;
 
-$mqMinWidth: 420px;
+// Card
+$card-border-color: darken(#d3b0d4, 30%);
+$card-bg: #f4f4f4;
+
+// Navbar
+$navbar-brand-font-size: .875rem;
+
+// Navbar items
+$nav-link-padding-y: 1.5rem;
+$nav-link-font-size: .875rem;
+
+// Jumbotron
+$hr-color: darken(#d3b0d4, 30%);
+$hr-opacity: 1;
+
+// Buttons
+
+$btn-padding-y:               .25rem;
+$btn-padding-x:               1.5rem;
+$btn-white-space:             nowrap; // Set to `nowrap` to prevent text wrapping
+
+$btn-padding-y-sm:            .5rem;
+$btn-padding-x-sm:            .5rem;
+
+$btn-padding-y-lg:            1rem;
+$btn-padding-x-lg:            1.5rem;
+$btn-font-size-lg:            1.45rem;
+
+$btn-border-radius:           .25rem;
+$btn-border-radius-sm:        .25rem;
+$btn-border-radius-lg:        .25rem;

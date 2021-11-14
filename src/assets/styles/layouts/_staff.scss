@@ -1,0 +1,49 @@
+.staff {
+  font-size: .875rem;
+
+  &__title {
+    text-align: center;
+    margin: 1rem 0 0 0;
+  }
+
+  &__list {
+    margin: 2rem 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: start;
+  }
+
+  &__person {
+    aspect-ratio: 4/3;
+    max-width: 100vw;
+    box-shadow: none;
+    transition: all .15s linear;
+
+    @include media-breakpoint-up(md) {
+      max-width: calc(50% - 1rem);
+    }
+
+    @include media-breakpoint-up(lg) {
+      max-width: calc(25% - 1rem);
+    }
+
+    &:hover {
+      box-shadow: 0 0 1rem 0 rgba(0,0,0,.2);
+    }
+  }
+
+  &__character {
+    line-height: 1;
+    margin-bottom: 0;
+  }
+
+  &__name {
+    opacity: .8;
+    font-weight: 300;
+    font-size: 1rem;
+  }
+
+}
