@@ -24,17 +24,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/uoc-advanced-html-css/uoc-boilerplate.git"
+    "url": "git+https://github.com/SedueRey/M4.258-PEC2"
   },
   "author": {
-    "name": "Jordi Tarrida",
-    "email": "jorditarrida@uoc.edu"
+    "name": "Eduardo - Sedue - Rey",
+    "email": "seduerey@uoc.edu"
   },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/uoc-advanced-html-css/uoc-boilerplate/issues"
   },
-  "homepage": "https://github.com/uoc-advanced-html-css/uoc-boilerplate#readme",
+  "homepage": "https://goofy-mayer-747207.netlify.app/index.html",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.0.0",
     "autoprefixer": "^10.2.3",
